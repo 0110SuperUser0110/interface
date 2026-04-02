@@ -1,0 +1,17 @@
+.vs/
+.venv*/
+.deps/
+.tmp/
+.pip-cache/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+AI/logs/
+AI/**/__pycache__/
+
+.idea/
+Thumbs.db
+Desktop.ini
