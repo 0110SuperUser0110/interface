@@ -9,8 +9,8 @@ __pycache__/
 *.pyd
 *.egg-info/
 
-AI/logs/
-AI/**/__pycache__/
+interface/logs/
+interface/**/__pycache__/
 
 .idea/
 Thumbs.db

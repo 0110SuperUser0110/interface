@@ -9,8 +9,8 @@
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>AI</Name>
-    <RootNamespace>AI</RootNamespace>
+    <Name>interface</Name>
+    <RootNamespace>interface</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AI.py" />
+    <Compile Include="interface.py" />
     <Compile Include="fuctionality\ai_logic.py">
       <SubType>Code</SubType>
     </Compile>
