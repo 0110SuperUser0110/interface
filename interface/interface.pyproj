@@ -22,22 +22,22 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="interface.py" />
-    <Compile Include="fuctionality\ai_logic.py">
+    <Compile Include="functionality\ai_logic.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="fuctionality\animations.py">
+    <Compile Include="functionality\animations.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="fuctionality\helpers.py">
+    <Compile Include="functionality\helpers.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="fuctionality\__init__\__init__.py">
+    <Compile Include="functionality\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="gui\gui.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="gui\__init__\__init__.py">
+    <Compile Include="gui\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="main.py">
@@ -46,10 +46,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="assets\" />
-    <Folder Include="fuctionality\__init__\" />
+    <Folder Include="functionality\" />
     <Folder Include="gui\" />
-    <Folder Include="fuctionality\" />
-    <Folder Include="gui\__init__\" />
     <Folder Include="logs\" />
   </ItemGroup>
   <ItemGroup>
